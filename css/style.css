@@ -1,0 +1,377 @@
+body {
+    font-family: "Open Sans", sans-serif !important;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* #region navbar  */
+
+.navbar {
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.25);
+    height: 105px;
+}
+
+.container {
+    max-width: 1140px !important;
+    position: relative;
+}
+
+.menu {
+    background-color: #fff;
+    border-radius: 0px 0px 10px 10px;
+    z-index: 1000;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-weight: 600;
+}
+
+.navbar-nav {
+    margin: 0 34px 0 24px;
+}
+
+.header-link {
+    justify-content: space-around;
+}
+
+/* #endregion navbar  */
+
+/* #region Equity  */
+
+.sing-in {
+    background-color: #252525 !important;
+    border-color: #252525;
+    padding: 14px 45px 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: center;
+}
+
+.card-item {
+    margin-top: 215px;
+    margin-bottom: 272px;
+}
+
+.card-title {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 71px;
+    text-align: left;
+    color: white;
+    margin-bottom: 28px !important;
+}
+
+.card-text {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    text-align: left;
+    margin-bottom: 39px;
+    color: white;
+}
+
+.equity-img {
+    max-width: 613px;
+    max-height: 656px;
+}
+
+.show-p768 {
+    display: none;
+}
+
+/* #endregion Equity  */
+
+/* #region Securities  */
+
+.securities__title {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 61px;
+    margin: 30px 0px;
+}
+
+.securities__subtitle {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 34px;
+    margin-bottom: 50px;
+}
+
+.card>img {
+    max-height: 339px;
+}
+
+.title {
+    color: #000;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 41px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 17px;
+}
+
+.subtitle {
+    color: #000;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.securities-form {
+    max-width: 730px;
+    margin: 36px auto 33px;
+}
+
+.securities-form>input {
+    border: 1px solid #969696;
+    border-radius: 10px !important;
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+}
+
+.securities-form>input::placeholder {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: #969696;
+}
+
+.securities-form>button {
+    background: #2ECC71;
+    border-radius: 10px !important;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: center;
+    color: white;
+    padding: 10px 49px;
+}
+
+/* #endregion Securities  */
+
+/* #region Quote  */
+
+.Quote-section {
+    background-color: #252525;
+}
+
+.quote {
+    color: #2ECC71;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.quote-author {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38px;
+    text-align: center;
+}
+
+/* #endregion Quote  */
+
+/* #region Products  */
+
+.Products {
+    margin-top: 59px;
+}
+
+.products-title {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 61px;
+}
+
+.launchpad {
+    margin-top: 156px;
+    max-width: 350px;
+    padding: 19px 0px 15px;
+    background: transparent;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #252525 !important;
+    border: 5px solid #252525;
+}
+
+.launchpad>a {
+    color: #252525;
+    text-decoration: none;
+}
+
+.marketplace {
+    max-width: 350px;
+    padding: 19px 0px 15px;
+    background: transparent;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 5px solid #2ecc71;
+}
+
+.marketplace>a {
+    text-decoration: none;
+    color: #2ecc71;
+}
+
+.products-text {
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 74px;
+}
+
+.products-text:last-child {
+    margin-bottom: 141px;
+}
+
+.products-img {
+    max-height: 667px;
+    max-width: 348px;
+}
+
+/* #endregion Products  */
+
+@media (max-width: 1200px) {
+    .navbar-nav {
+        margin: 0 18px;
+        padding: 0;
+    }
+    .nav-link {
+        padding: 0 !important;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 992px) {
+    .header-link {
+        justify-content: flex-start;
+        margin-left: 24px;
+        margin-bottom: 10px;
+    }
+    .header-link>a {
+        margin-right: 40px;
+    }
+    .nav-link {
+        padding: 8px !important;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .securities__title {
+        font-size: 35px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    .securities__subtitle {
+        font-size: 18px;
+        margin: 0 auto 36px;
+    }
+    .quote {
+        padding: 28px 0px;
+        font-size: 22px;
+        line-height: 29px;
+    }
+    .quote-author {
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .Products {
+        margin-top: 39px;
+    }
+    .launchpad {
+        margin-top: 10px;
+    }
+    .title {
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+    .subtitle {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+}
+
+@media (max-width: 767px) {
+    .show-p768 {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .hidden-p768 {
+        display: none;
+    }
+    .products-text {
+        margin-top: 10px;
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+    .products-text:last-child {
+        margin-bottom: 8px;
+    }
+    .card-item {
+        margin-top: 7px;
+        margin-bottom: 37px;
+    }
+    .card-item>* {
+        text-align: center;
+    }
+    .card-title {
+        margin-bottom: 0px !important;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+    .card-text {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .sing-in {
+        display: block;
+        margin: 0 auto;
+    }
+    .card-text {
+        margin-bottom: 16px;
+    }
+}
+
+@media (max-width: 576px) {
+    .securities-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .securities-form>input {
+        width: 100% !important;
+        margin-bottom: 15px;
+    }
+}
